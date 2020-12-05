@@ -17,7 +17,7 @@ export default function AboutUs(){
                     Excepteur sint occaecat cupidatat
                     non proident, sunt in culpa qui officia.</p>
                 <div className="mb-5">
-                    <img src={Img} alt="ariel"/>
+                    <img className="aboutImage" src={Img} alt="garden03"/>
                 </div>
             </div>
         </div>  

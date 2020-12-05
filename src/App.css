@@ -22,9 +22,16 @@ p {
   text-align: center;
 }
 
-h1, h2, h4  {
+h1, h4 {
   font-family: "Raleway", sans-serif;
   color: #467561;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  color: #c5d86d;
   text-align: center;
 }
 
@@ -48,6 +55,10 @@ h3 {
   padding: 20px
 }
 
+.eventTable {
+  width:'75vw'
+}
+
 .about {
   text-align: center;
   color: white;
@@ -55,7 +66,7 @@ h3 {
 }
 
 .section {
-  background-color: rgb(255, 255, 255, .8);
+  background-color: rgb(197, 216, 109, .8);
 }
 
 hr {
@@ -64,6 +75,7 @@ hr {
   border-width: 5px;
   width: 100%;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .pageline {
@@ -82,12 +94,13 @@ hr {
 
 
 
-img {
+.aboutImage {
   height:100%;
   width:50vw;
-  border-radius: 15px;
-  border-color: green;
+  border-radius: 25px;
+  border-color: #c5d86d;
   border-style: solid;
+  border-width: 5px;
 }
 
 .circle{
@@ -96,6 +109,7 @@ img {
   width: 1.5rem;
   height: 1.5rem;
   background-color: orange;
+  text-align: center;
   
 }
 .circlehover{
@@ -117,9 +131,14 @@ img {
     border-radius: 2px;
 }
 
-.accordion__item + .accordion__item {
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
+.panel{
+  background-color: white;
+  padding:5px;
 }
+
+/*.accordion__item + .accordion__item {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}*/
 
 .accordion__button {
     background-color: #f4f4f4;
@@ -155,14 +174,14 @@ img {
     display: none;
 }
 
-.accordion__panel {
+/*.accordion__panel {
     padding: 20px;
     animation: fadein 0.35s ease-in;
 }
 
-/* -------------------------------------------------- */
+ -------------------------------------------------- */
 /* ---------------- Animation part ------------------ */
-/* -------------------------------------------------- */
+/* -------------------------------------------------- 
 
 @keyframes fadein {
     0% {
@@ -172,4 +191,4 @@ img {
     100% {
         opacity: 1;
     }
-}
+}*/

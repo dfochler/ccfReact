@@ -5,9 +5,9 @@ import MyMarker from './MyMarker';
 
 
 const points = [
-    { id: 1, title: "Round Pond", lat: 34.93, lng: -85.3},
-    { id: 2, title: "The Long Water", lat: 35.1, lng: -85 },
-    { id: 3, title: "The Serpentine", lat: 35, lng: -84.9 }
+    { id: 1, title: "Glass St. Gardens", lat: 34.93, lng: -85.3},
+    { id: 2, title: "St.Elmo Gardens", lat: 35.1, lng: -85 },
+    { id: 3, title: "Hill City Gardens", lat: 35, lng: -84.9 }
 ];
 
 export default function GoogleMap() {
@@ -16,7 +16,7 @@ export default function GoogleMap() {
  
       return (
   
-        <div className="mt-5 ml-auto mr-3" style={{ height: '50vh', width: '50%' }}>
+        <div className=" mr-auto" style={{ height: '50vh', width: '50%' }}>
           <GoogleMapReact
             bootstrapURLKeys={{ key:"AIzaSyCJsSot2i2j3pYs4h4Os3aOH_BOiwTuFG8",
             language: "en",
