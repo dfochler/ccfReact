@@ -4,6 +4,8 @@ import AboutUs from "./AboutUs";
 import EventsTable from "./EventsTable";
 import Footer from "./Footer";
 import GoogleMap from "./GoogleMap";
+import Accordions from "./Accordion";
+
 
 
 export default class Main extends Component {
@@ -15,7 +17,10 @@ export default class Main extends Component {
               <Header />
               <AboutUs/>
               <EventsTable />
-              <GoogleMap />
+            <div className="row row-content">
+                <Accordions/>
+                <GoogleMap />
+            </div>
               <Footer />
             </React.Fragment>
         );

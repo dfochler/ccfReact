@@ -1,9 +1,9 @@
 import React from 'react';
 
 
-export default function Footer(props) {
+export default function Footer() {
     return (
-        <footer className="site-footer">
+        <footer className="site-footer mt-4">
             <div className="container" >
                 <div className="row" style={{display:"flex", justifyContent:"center",
         alignItems:"center"}}>             

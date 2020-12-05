@@ -8,7 +8,7 @@ export default class Header extends Component {
       <React.Fragment>
         <div className="container">
           <div className="row">
-            <div className="col mt-5">
+            <div className="col mt-4">
               <h1>ChattaCity Farms</h1>
               <h2>Diggin' the city</h2>
             </div>
