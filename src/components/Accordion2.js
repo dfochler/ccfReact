@@ -28,13 +28,14 @@ render() {
                         <AccordionItem key={item.uuid}>
                             <AccordionItemHeading>
                                 <AccordionItemButton>
+                                    {(item.id + 1)} - 
                                     {item.name}
                                 </AccordionItemButton>
                             </AccordionItemHeading>
                             <AccordionItemPanel className="panel">
-                            {item.address}<br/>
-                            {item.info}<br/>
-                            {item.image}
+                                {item.address}<br/>
+                                {item.info}<br/>
+                                {item.image}
                             </AccordionItemPanel>
                         </AccordionItem>
                     ))}

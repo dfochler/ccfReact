@@ -61,8 +61,8 @@ h3 {
 
 .about {
   text-align: center;
-  color: white;
-  background-color: rgba(66, 144, 175, 0.3);
+  color: whitesmoke;
+  
 }
 
 .section {
@@ -173,22 +173,3 @@ hr {
 [hidden] {
     display: none;
 }
-
-/*.accordion__panel {
-    padding: 20px;
-    animation: fadein 0.35s ease-in;
-}
-
- -------------------------------------------------- */
-/* ---------------- Animation part ------------------ */
-/* -------------------------------------------------- 
-
-@keyframes fadein {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}*/

@@ -5,7 +5,10 @@ import Img from '../images/garden03.jpeg';
 export default function AboutUs(){
     return (
         <div className="about">
-            <div className="mt-5" >
+                <div className="mt-5">
+                    <img className="aboutImage" src={Img} alt="garden03"/>
+                </div>
+                <div className="m-5 px-5" >
                     <p> Lorem ipsum dolor sit amet, consectetur
                     adipiscing elit, sed do eiusmod tempor incididunt
                     ut labore et dolore magna aliqua.
@@ -16,9 +19,6 @@ export default function AboutUs(){
                     esse cillum dolore eu fugiat nulla pariatur.
                     Excepteur sint occaecat cupidatat
                     non proident, sunt in culpa qui officia.</p>
-                <div className="mb-5">
-                    <img className="aboutImage" src={Img} alt="garden03"/>
-                </div>
             </div>
         </div>  
     );
